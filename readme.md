@@ -42,7 +42,7 @@ We select some important files for detailed description.
 直接运行main.ipynb里的每个单元格即可
 
 ## 模型结构
-
+![图片](https://github.com/timberflow/useless-multi-modal-emotion-recognition/blob/main/structure.png)
 
 
 
