@@ -41,6 +41,19 @@ We select some important files for detailed description.
 ## 运行流程
 直接运行main.ipynb里的每个单元格即可
 
+消融模型可以直接修改输入，包括训练里和所有的预测里都改一下。
+```python
+logits = model(img=img,src_ids=source_ids,src_mask=source_mask)
+```
+例如只使用图像数据：
+```python
+logits = model(img=img)
+```
+只使用text数据
+```python
+logits = model(src_ids=source_ids,src_mask=source_mask)
+```
+
 ## 模型结构
 
 ![hh](https://github.com/timberflow/useless-multi-modal-emotion-recognition/blob/main/structure.png)
