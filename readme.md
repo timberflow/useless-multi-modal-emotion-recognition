@@ -43,7 +43,7 @@ We select some important files for detailed description.
 
 ## 模型结构
 
-
+![hh](https://github.com/timberflow/useless-multi-modal-emotion-recognition/blob/main/structure.png)
 
 
 
