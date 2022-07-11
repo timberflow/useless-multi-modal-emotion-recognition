@@ -36,6 +36,8 @@ We select some important files for detailed description.
 |-- main.ipynb # 在这里面运行每个单元格即可
 |-- GoogLeNet.py # 如题
 |-- Combination.py # 融合模型和所有的其它模型
+|-- ResNet.py # 没用
+|-- VGG16.py # 没用
 ```
 
 ## 运行流程
